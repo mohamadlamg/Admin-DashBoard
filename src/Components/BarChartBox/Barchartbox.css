@@ -1,0 +1,22 @@
+.barchartbox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+}
+
+.barchart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barchart-header h3 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.barchart-chart {
+  width: 100%;
+}

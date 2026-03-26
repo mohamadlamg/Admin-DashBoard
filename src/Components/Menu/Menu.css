@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+}
+a{
+    color: #ddd;
+}
+.listItems{
+    gap: .4rem;
+    margin: .4rem;
+    height: 2rem;
+    display: flex;
+    border-radius: .3rem;
+    align-items: center;
+    padding: 10px;
+    transition: all .4s ease;
+    width: 100%;
+}
+.listItems:hover{
+    background-color: #384256;
+}
+.titre{
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: bold;
+}
